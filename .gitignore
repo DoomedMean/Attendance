@@ -1,0 +1,74 @@
+# ============================================================
+# Attendance.API — .NET
+# ============================================================
+
+# Build output
+Attendance.API/bin/
+Attendance.API/obj/
+
+# Visual Studio local files
+Attendance.API/.vs/
+Attendance.API/*.user
+Attendance.API/*.suo
+
+# Sensitive config — use environment variables or User Secrets instead
+Attendance.API/appsettings.Development.json
+Attendance.API/appsettings.*.json
+# WARNING: appsettings.json contains a hardcoded DB password.
+# Move the ConnectionStrings to User Secrets or env vars and add it below:
+# Attendance.API/appsettings.json
+
+# Certificates / secrets
+Attendance.API/*.pfx
+Attendance.API/*.p12
+Attendance.API/*.key
+
+# ============================================================
+# Attendance.UI — Vue 3 / Vite / Node
+# ============================================================
+
+# Dependencies
+Attendance.UI/node_modules/
+
+# Build output
+Attendance.UI/dist/
+Attendance.UI/dist-ssr/
+
+# Test coverage
+Attendance.UI/coverage/
+
+# Vite temp files
+Attendance.UI/*.timestamp-*-*.mjs
+Attendance.UI/*.tsbuildinfo
+
+# Lint cache
+Attendance.UI/.eslintcache
+
+# Local env files (may contain API keys / secrets)
+Attendance.UI/.env.local
+Attendance.UI/.env.*.local
+
+# ============================================================
+# OS & editor
+# ============================================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# JetBrains IDEs
+.idea/
+
+# VS Code (keep shared settings, ignore personal/local)
+.vscode/settings.json
+.vscode/launch.json
+.vscode/*.log
+
+# Logs
+*.log
+logs/
+Attendance.API/appsettings.json
