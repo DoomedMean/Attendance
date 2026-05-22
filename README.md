@@ -238,7 +238,7 @@ npm run dev
 
 ## 👤 Author
 
-Built as a personal portfolio project demonstrating full-stack development with modern .NET and Vue 3 ecosystems.
+Project  full-stack development with modern .NET and Vue 3 ecosystems.
 
 ---
 
